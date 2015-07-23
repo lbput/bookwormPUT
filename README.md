@@ -1,4 +1,3 @@
-#
- Bookworm Store
-# Django/Python
-# 2015
+# Bookworm Store
+Django/Python
+2015
