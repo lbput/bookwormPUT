@@ -1,3 +1,2 @@
-# Bookworm Store
-Django/Python
-2015
+# Academic Project - Bookworm Store
+Django/Python ; 2015
