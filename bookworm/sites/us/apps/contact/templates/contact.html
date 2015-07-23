@@ -1,0 +1,37 @@
+﻿{% extends "layout.html" %}
+{% load thumbnail %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+    <ul class="breadcrumb">
+        <li>
+            <a href="{{ homepage_url }}">{% trans "Home" %}</a>
+        </li>
+        <li class="active">{% trans "Contact" %}</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+<div class="col-sm-9">
+    <h3 class="page-header">Formularz kontaktowy</h3>
+	<div class="row">
+		<div class="col-xs-10 center-block">
+    <form class="form-horizontal" action="{% url 'contact:contact_form' %}" method="post" role="form">
+        {% csrf_token %}{{ form.non_field_errors }}
+        {% for field in form %}
+        <div class="form-group {% if field.errors %}has-error{% endif %}">
+            <label class="col-sm-2 control-label" title="{{ field.errors.as_text }}">{{ field.label_tag }}{% if field.field.required %}*{% endif %}</label>
+            <div class="col-sm-10">{{field}}</div>
+        </div>
+        {% endfor %}
+		<br />
+		<div class="form-group">
+            <div class="col-sm-offset-4 col-sm-4">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Wyślij</button>
+            </div>
+        </div>
+	</form>
+	</div>
+</div>
+</div>
+{% endblock %}

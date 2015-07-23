@@ -1,0 +1,11 @@
+syntax: glob
+*~
+*.pyc
+*.sqlite3
+*.suo
+*.pyproj
+temp/
+bin/
+obj/
+public/media/cache/
+public/static/

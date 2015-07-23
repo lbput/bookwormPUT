@@ -1,0 +1,28 @@
+
+.cookie_header {
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 5px 0;
+  border: solid 1px #C9C9C9;
+  line-height: 18px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50%;
+  z-index: 106;
+  font-size: 11px;
+  opacity: 0.9;
+  box-shadow: 0 0 6px 0 #c0c0c0;
+}
+
+.cookie_header img {
+  float: right;
+  padding-right: 6px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cookie_header a {
+  padding-left: 8px;
+}

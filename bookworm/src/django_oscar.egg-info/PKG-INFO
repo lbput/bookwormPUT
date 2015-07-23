@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: django-oscar
+Version: 1.1-dev
+Summary: A domain-driven e-commerce framework for Django
+Home-page: https://github.com/django-oscar/django-oscar
+Author: David Winterbottom
+Author-email: david.winterbottom@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: E-commerce,Django,domain-driven
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks

@@ -1,0 +1,1917 @@
+[
+    {
+        "pk": 1, 
+        "model": "address.country", 
+        "fields": {
+            "iso_3166_1_a2": "PL", 
+            "iso_3166_1_a3": "POL", 
+            "iso_3166_1_numeric": "616", 
+            "is_shipping_country": true,
+			"display_order": 0,
+			"printable_name": "Polska",
+			"name": "Polska"
+        }
+    },
+    {
+        "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "superuser", 
+            "first_name": "Książkowy", 
+            "last_name": "Mól", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2015-05-12T17:00:05Z",
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "pbkdf2_sha256$15000$41qvYleVtfLb$y150b4z/jehEYdkggu8N5F3m/TpJroFr5BjAckZlQsc=", 
+            "email": "ksiazkowymolpl@gmail.com", 
+            "date_joined": "2015-01-12T17:00:00Z"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "lb", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": false, 
+            "is_staff": true, 
+            "last_login": "2015-04-12T17:11:20Z",
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "pbkdf2_sha256$15000$Hyfi0FstPI8O$clpvaAfW+u9mMFfETt8A69rS68pY/J7rZ+pj9xyJY0g=", 
+            "email": "lb@lb.com", 
+            "date_joined": "2015-04-12T17:08:56Z"
+        }
+    },
+{
+    "pk": 1, 
+    "model": "catalogue.productclass", 
+    "fields": {
+        "track_stock": true, 
+        "options": [], 
+        "requires_shipping": true, 
+        "name": "Książki", 
+        "slug": "ksiazki"
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.category", 
+    "fields": {
+        "description": "Książki na każdy temat.", 
+        "numchild": 3, 
+        "slug": "ksiazki", 
+        "depth": 1, 
+        "path": "0001",
+        "image": "", 
+        "name": "Książki"
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.category", 
+    "fields": {
+        "description": "Książki z dziedziny Informatyka.", 
+        "numchild": 0, 
+        "slug": "informatyka", 
+        "depth": 2, 
+        "path": "00010001",
+        "image": "", 
+        "name": "Informatyka"
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.category", 
+    "fields": {
+        "description": "Książki z dziedziny Kryminały.", 
+        "numchild": 0, 
+        "slug": "kryminaly", 
+        "depth": 2, 
+        "path": "00010002",
+        "image": "", 
+        "name": "Kryminały"
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.category", 
+    "fields": {
+        "description": "Książki z dziedziny Poradniki.", 
+        "numchild": 0, 
+        "slug": "poradniki", 
+        "depth": 2, 
+        "path": "00010003",
+        "image": "", 
+        "name": "Poradniki"
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Symfony2 to jeden z najpopularniejszych szkieletów do tworzenia aplikacji internetowych w języku PHP. Programiści PHP docenili jego możliwości, łatwość konfiguracji oraz elastyczność i wybierają go do najbardziej zaawansowanych projektów. Wokół tego szkieletu stworzyli również silną społeczność, która aktywnie wspiera początkujących programistów. Chcesz się przekonać, jak wykorzystać Symfony2 w codziennej pracy? Zastanawiasz się, jak rozszerzyć możliwości tego systemu i jeszcze bardziej dostosować go do własnych potrzeb? Jeżeli tak, to trafiłeś na doskonałą książkę! Znajdziesz w niej cenne porady na temat tworzenia usług, szablonów oraz formularzy. Dowiesz się, jak zwiększyć bezpieczeństwo Twojej aplikacji za pomocą uwierzytelnienia OAuth oraz własnych adnotacji. Poznasz Doctrine oraz zobaczysz, jak udostępnić stworzone rozszerzenie innym programistom. W tej książce znajdziesz również informacje na temat automatycznego testowania stworzonego kodu oraz tworzenia dokumentacji. Jest to doskonała pozycja dla programistów chcących w pełni wykorzystać możliwości szkieletu Symfony2!", 
+        "parent": null, 
+        "title": "Symfony2. Rozbudowa frameworka", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "symfony2-rozudowa-frameworka", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "W sieci króluje połączenie serwera Apache z bazą danych MySQL i językiem PHP. Do niedawna wydawało się, że pozycja tej trójcy na fotelu lidera jest niezagrożona. Jednak na horyzoncie pojawili się nowi gracze: Node.js, MongoDB oraz AngularJS! Node.js to platforma, która pozwoli Ci stworzyć niezwykle wydajną aplikację internetową przy użyciu języka JavaScript. AngularJS specjalizuje się w interfejsie użytkownika opartym na MVC. Natomiast MongoDB to jedna z najpopularniejszych baz danych NoSQL. Co wynika z połączenia tych trzech narzędzi? Przekonasz się, gdy sięgniesz po tę niezwykłą książkę!", 
+        "parent": null, 
+        "title": "Node.js, MongoDB, AngularJS. Kompendium wiedzy", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "nodejs-mongodb-angularjs", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Dynamiczny rozwój sieci i jej wkraczanie w coraz to nowe obszary życia pozwala nam korzystać z większości usług z dowolnego miejsca na świecie i za pośrednictwem każdego urządzenia z dostępem do internetu. Aby użytkownik mógł swobodnie poruszać się po sieci, konieczne jest rozwijanie coraz bardziej zaawansowanych, wygodniejszych i szybszych aplikacji internetowych działających po stronie serwera. Do niedawna większość aplikacji tego rodzaju była pisana w takich językach, jak PHP, Python lub Java, obecnie natomiast ogromną popularność zdobywają w tej dziedzinie język C# i platforma MVC.", 
+        "parent": null, 
+        "title": "C# 6.0 i MVC 5. Tworzenie nowoczesnych portali internetowych", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "c-tworzenie-nowoczesnych-portali-internetowych", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Doskonały thriller łączący w sobie wiedzę z zakresu historii, archeologii i paleontologii, a także biochemii. Podczas gaszenia pożaru wywołanego przez awarię instalacji elektrycznej w klasztorze Ruac pod tynkiem biblioteki zostaje odkryty XIV-wieczny manuskrypt. Gdy specjaliście od renowacji dawnych książek, Hugonowi Pineau, udaje się rozkleić przemoczony pergamin, stwierdza ze zdumieniem, że manuskrypt został napisany szyfrem, zawiera liczne kopie naskalnych rysunków zwierząt i roślin oraz schematyczną mapę, a z jedynego niezaszyfrowanego zdania wynika, że autorem jest mnich mający jakoby 220 lat. Rozpoczynają się mozolne prace nad odkodowaniem tekstu zawierającego przepis na niezwykły napar, prawdopodobnie zapewniający długowieczność.", 
+        "parent": null, 
+        "title": "Mapa przeznaczenia", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "mapa-przeznaczenia", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Autorka ponad sześćdziesięciu bestsellerów z listy New York Times’a tym razem opowiada o kobiecie obsesyjnie dążącej do odkrycia prawdy o brutalnym morderstwie swojej siostry Bellamy Lyston miała zaledwie dwanaście lat, kiedy jej starsza siostra, Susan, została zamordowana podczas burzy w Dniu Pamięci. Rozszalałe tornado zniszczyło scenę zbrodni, a także pamięć Bellamy o tym, co naprawdę się wtedy zdarzyło. Osiemnaście lat później Bellamy wydaje bestselerową powieść sensacyjną, w której powraca do śmierci Susan. Książka wychodzi pod pseudonimem, ponieważ Bellamy chce uchronić bliskich przed niepożądanym zainteresowaniem mediów. Wścibski reporter odkrywa jednak, że książka jest oparta na faktach i zarówno tożsamość Bellamy, jak i rodzinny skandal zostają ujawnione. Co więcej, kobieta staje się celem anonimowego napastnika. Musi się zmierzyć z upiorami przeszłości, w tym z Dentem Carterem, lekkomyślnym chłopakiem Susan i pierwszym podejrzanym w sprawie o zabójstwo sprzed lat. ", 
+        "parent": null, 
+        "title": "Tornado", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "tornado", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Na życiu Skye Dearborn kładzie się cieniem niewyjaśniona, mroczna przeszłość. Z czasem udało jej się wyprzeć przerażające wspomnienia, ale wciąż ma napady trudnego do wyjaśnienia lęku. Wtedy nawiedzają ją niepokojące obrazy. Krew na lśniącej posadzce, przeszywający ciszę krzyk… Po latach koszmary przestają nękać Skye, jej życie toczy się spokojnym rytmem. Ale pewnego dnia przeszłość powraca. Zło, którego tak się obawiała, ma ludzką postać. Griffen Monarch jest od lat opętany obsesją na jej punkcie. Jako jedyny wie, kim naprawdę jest Skye Dearborn. Chce ją mieć na wyłączność i nie zawaha się zabić każdego, kto mu wejdzie w drogę. ",
+        "parent": null, 
+        "title": "Obsesja", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "obsesja", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Co jeść, kiedy twoje życie zależy od tego? Co wiesz o ekstremalnych źródłach pożywienia? Potrafisz rozpoznać śmiertelnie niebezpieczne rośliny? Próbowałeś kiedyś kebabu ze skorpiona? W swoim życiu zjadłem już niejedno nietypowe danie: żywe tarantule, kozie jądra, odchody słonia, surowe mięso zebry. Uwierz mi, że jeśli od tego zależy przeżycie, trzeba pozbyć się uprzedzeń. Pewnych rzeczy po prostu nie da się uniknąć. Dzięki tej książce dowiesz się, jak pozyskać jedzenie w dziczy. Poznasz metody przyrządzania posiłków z tego, co wcześniej absolutnie nie kojarzyło ci się z jedzeniem. Nauczysz się rozpoznawać rośliny i zwierzęta, które mogą cię ocalić albo zabić. Niektóre z opisywanych pokarmów budzą wstręt, ale uratowały mi życie i to niejeden raz. Kiedyś mogą uratować je także i tobie.",
+        "parent": null, 
+        "title": "Jeść, by przetrwać", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "jesc-by-przetrwac", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 8, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Różne problemy w relacjach młodych małżonków z teściami. Niedojrzałość emocjonalna jednych i drugich to najczęściej przyczyna konfliktów. A może warto coś zmienić?",
+        "parent": null, 
+        "title": "Warto pokochać teściową", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "warto-pokochac-tesciowa", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+    "pk": 9, 
+    "model": "catalogue.product", 
+    "fields": {
+        "rating": null,
+        "description": "Miliony ludzi na całym świecie rozpoznają uśmiechniętą twarz Nicka Vujicica. Nick urodził się bez rąk i nóg, jednak przezwyciężył ograniczenia wynikające z niepełnosprawności i prowadzi dziś życie, które sam określa jako „obłędnie szczęśliwe”. Jest jednym z najsłynniejszych współczesnych mówców motywacyjnych. Angażuje się w działalność charytatywną, a równolegle kieruje firmą szkoleniową, nagrywa programy radiowe, pisze bestsellerowe książki i występuje w filmach - by wymienić tylko niektóre z jego licznych aktywności.",
+        "parent": null, 
+        "title": "Niezwyciężony! Potęga wiary w działaniu", 
+        "date_updated": "2015-03-12T16:33:57.426Z", 
+        "upc": "", 
+        "is_discountable": true, 
+        "date_created": "2015-03-12T16:33:57.426Z", 
+        "product_options": [], 
+        "slug": "niezwyciezony-potega-wiary-w-dzialaniu", 
+        "product_class": 1,
+        "structure": "standalone"
+    }
+},
+{
+	"pk": 1,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/sym2rf.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 1
+	}
+},
+{
+	"pk": 2,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/nodekw.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 2
+	}
+},
+{
+	"pk": 3,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/c6mvc5.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 3
+	}
+},
+{
+	"pk": 4,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/mapa_przeznaczenia.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 4
+	}
+},
+{
+	"pk": 5,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/tornado.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 5
+	}
+},
+{
+	"pk": 6,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/obsesja.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 6
+	}
+},
+{
+	"pk": 7,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/Jesc-by-przetrwac.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 7
+	}
+},
+{
+	"pk": 8,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/Warto-pokochac-tesciowa_Jacek-Pulikowski.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 8
+	}
+},
+{
+	"pk": 9,
+	"model": "catalogue.productimage",
+	"fields": {
+		"original": "images/products/2015/03/Niezwyciezony-Potega-wiary-w-dzialaniu.jpg",
+		"caption": "",
+		"display_order": 0,
+		"date_created": "2015-03-12T16:33:57.426Z",
+		"product": 9
+	}
+},
+{
+    "pk": 1, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 2, 
+        "product": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 2, 
+        "product": 2
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 2, 
+        "product": 3
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 3, 
+        "product": 4
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 3, 
+        "product": 5
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 3, 
+        "product": 6
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 4, 
+        "product": 7
+    }
+},
+{
+    "pk": 8, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 4, 
+        "product": 8
+    }
+},
+{
+    "pk": 9, 
+    "model": "catalogue.productcategory", 
+    "fields": {
+        "category": 4, 
+        "product": 9
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "autor", 
+        "type": "text", 
+        "name": "Autor"
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "oprawa", 
+        "type": "text", 
+        "name": "Oprawa"
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "jezyk", 
+        "type": "text", 
+        "name": "Język"
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "liczba_stron", 
+        "type": "integer", 
+        "name": "Liczba stron"
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "data_publikacji", 
+        "type": "date", 
+        "name": "Data publikacji"
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "wydawca", 
+        "type": "text", 
+        "name": "Wydawca"
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalogue.productattribute", 
+    "fields": {
+        "required": false, 
+        "product_class": 1, 
+        "option_group": null, 
+        "code": "waga", 
+        "type": "integer", 
+        "name": "Waga"
+    }
+},
+{
+    "pk": 1, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Sébastien Armand", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 128, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-05", 
+        "value_integer": null, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Helion", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 1, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 8, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Brad Dayley", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 9, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 10, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 11, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 672, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 12, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-06", 
+        "value_integer": null, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 13, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Helion", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 14, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 2, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 15, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Krzysztof Żydzik, Tomasz Rak", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 16, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 17, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 18, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 528, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 19, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-07", 
+        "value_integer": null, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 20, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Helion", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 21, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 3, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 22, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Glenn Cooper", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 23, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 24, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 25, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 448, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 26, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-08", 
+        "value_integer": null, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 27, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Albatros", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 28, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 4, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 29, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Sandra Brown", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 30, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 31, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 32, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 432, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 33, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-09", 
+        "value_integer": null, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 34, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Świat Książki", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 35, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 5, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 36, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Erica Spindler", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 37, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "twarda", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 38, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 39, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 432, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 40, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-10", 
+        "value_integer": null, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 41, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Azymut", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 42, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 6, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 43, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Bear Grylls", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 44, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "twarda", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 45, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 46, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 296, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 47, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-11", 
+        "value_integer": null, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 48, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Pascal", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 49, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 7, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 50, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Jacek Pulikowski", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 51, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 52, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 53, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 154, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 54, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-12", 
+        "value_integer": null, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 55, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Jerozolima", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 56, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 8, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 57, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Nick Vujicic", 
+        "attribute": 1, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 58, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "miękka", 
+        "attribute": 2, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 59, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "polski", 
+        "attribute": 3, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 60, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 288, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 4, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 61, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": "2015-03-13", 
+        "value_integer": null, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 5, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 62, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": null, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": "Aetos", 
+        "attribute": 6, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 63, 
+    "model": "catalogue.productattributevalue", 
+    "fields": {
+        "value_date": null, 
+        "value_integer": 250, 
+        "product": 9, 
+        "value_float": null, 
+        "entity_content_type": null, 
+        "value_text": null, 
+        "attribute": 7, 
+        "value_richtext": null, 
+        "entity_object_id": null, 
+        "value_image": "", 
+        "value_option": null, 
+        "value_boolean": null, 
+        "value_file": ""
+    }
+},
+{
+    "pk": 1, 
+    "model": "partner.partner", 
+    "fields": {
+        "code": "dostawca-informatyka", 
+        "name": "Dostawca od Informatyki", 
+        "users": []
+    }
+},
+{
+    "pk": 2, 
+    "model": "partner.partner", 
+    "fields": {
+        "code": "dostawca-kryminaly", 
+        "name": "Dostawca od Kryminałów", 
+        "users": []
+    }
+},
+{
+    "pk": 3, 
+    "model": "partner.partner", 
+    "fields": {
+        "code": "dostawca-poradniki", 
+        "name": "Dostawca od Poradników", 
+        "users": []
+    }
+},
+{
+    "pk": 1, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 1, 
+        "partner_sku": "9781408179100", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:37:08.232Z", 
+        "num_in_stock": 10, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:37:08.232Z", 
+        "partner": 1, 
+        "price_excl_tax": "27.99", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 2, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 2, 
+        "partner_sku": "9781408179101", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:37:45.928Z", 
+        "num_in_stock": 8, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:37:45.928Z", 
+        "partner": 1, 
+        "price_excl_tax": "38.70", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 3, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 3, 
+        "partner_sku": "9781408179102", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:38:49.858Z", 
+        "num_in_stock": 13, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:38:49.858Z", 
+        "partner": 1, 
+        "price_excl_tax": "45.22", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 4, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 4, 
+        "partner_sku": "9781408179200", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:39:12.947Z", 
+        "num_in_stock": 10, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:39:12.947Z", 
+        "partner": 2, 
+        "price_excl_tax": "15", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 5, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 5, 
+        "partner_sku": "9781408179201", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:39:53.162Z", 
+        "num_in_stock": 0, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:39:53.162Z", 
+        "partner": 2, 
+        "price_excl_tax": "15.05", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 6, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 6, 
+        "partner_sku": "9781408179202", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:39:53.162Z", 
+        "num_in_stock": 3, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:39:53.162Z", 
+        "partner": 2, 
+        "price_excl_tax": "22.99", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 7, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 7, 
+        "partner_sku": "9781408179300", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:39:53.162Z", 
+        "num_in_stock": 11, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:39:53.162Z", 
+        "partner": 3, 
+        "price_excl_tax": "39.54", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 8, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 8, 
+        "partner_sku": "9781408179301", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:39:53.162Z", 
+        "num_in_stock": 4, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:39:53.162Z", 
+        "partner": 3, 
+        "price_excl_tax": "19.59", 
+        "cost_price": null
+    }
+},
+{
+    "pk": 9, 
+    "model": "partner.stockrecord", 
+    "fields": {
+        "price_currency": "PLN", 
+        "product": 9, 
+        "partner_sku": "9781408179302", 
+        "price_retail": null, 
+        "date_updated": "2015-02-13T11:39:53.162Z", 
+        "num_in_stock": 2, 
+        "num_allocated": null, 
+        "low_stock_threshold": null, 
+        "date_created": "2015-02-13T11:39:53.162Z", 
+        "partner": 3, 
+        "price_excl_tax": "10.59", 
+        "cost_price": null
+    }
+}
+]

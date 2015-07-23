@@ -1,0 +1,23 @@
+﻿{% extends "layout.html" %}
+{% load thumbnail %}
+{% load i18n %}
+
+{% block breadcrumbs %}
+    <ul class="breadcrumb">
+        <li>
+            <a href="{{ homepage_url }}">{% trans "Home" %}</a>
+        </li>
+        <li class="active">{% trans "Thanks" %}</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+<div class="col-sm-9">
+	<h3 class="page-header">Dziękujemy</h3>
+	<div class="row">
+		<div class="col-xs-11 center-block">
+			<p>Dziękujemy za wiadomość. Prosimy czekać na odpowiedź.</p>
+		</div>
+	</div>
+</div>
+{% endblock %}

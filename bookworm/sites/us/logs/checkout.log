@@ -1,0 +1,28 @@
+INFO 2015-05-12 12:48:24,233 views Order #100001: beginning submission process for basket #1
+INFO 2015-05-12 12:48:27,168 views Order #100001: payment successful, placing order
+INFO 2015-05-12 12:48:27,517 mixins Order #100001 - sending ORDER_PLACED messages
+INFO 2015-05-12 12:48:27,522 utils Sending email to ksiazkowymolpl@gmail.com
+INFO 2015-05-12 13:44:27,658 views Order #100004: beginning submission process for basket #4
+INFO 2015-05-12 13:44:30,251 views Order #100004: payment successful, placing order
+INFO 2015-05-12 13:44:30,425 mixins Order #100004 - sending ORDER_PLACED messages
+INFO 2015-05-12 13:44:30,429 utils Sending email to ksiazkowymolpl@gmail.com
+INFO 2015-05-12 15:01:47,951 views Order #100006: beginning submission process for basket #6
+INFO 2015-05-12 15:01:50,524 views Order #100006: payment successful, placing order
+INFO 2015-05-12 15:01:50,649 mixins Order #100006 - sending ORDER_PLACED messages
+INFO 2015-05-12 15:01:50,651 utils Sending email to adamerot@hotmail.com
+INFO 2015-05-12 15:05:57,712 views Order #100005: beginning submission process for basket #5
+INFO 2015-05-12 15:06:02,298 views Order #100005: payment successful, placing order
+INFO 2015-05-12 15:06:02,428 mixins Order #100005 - sending ORDER_PLACED messages
+INFO 2015-05-12 15:06:02,430 utils Sending email to ksiazkowymolpl@gmail.com
+INFO 2015-05-12 15:07:47,700 views Order #100008: beginning submission process for basket #8
+INFO 2015-05-12 15:07:50,212 views Order #100008: payment successful, placing order
+INFO 2015-05-12 15:07:50,310 mixins Order #100008 - sending ORDER_PLACED messages
+INFO 2015-05-12 15:07:50,312 utils Sending email to adamerot@hotmail.com
+INFO 2015-05-12 15:09:06,394 views Order #100009: beginning submission process for basket #9
+INFO 2015-05-12 15:09:09,205 views Order #100009: payment successful, placing order
+INFO 2015-05-12 15:09:09,289 mixins Order #100009 - sending ORDER_PLACED messages
+INFO 2015-05-12 15:09:09,291 utils Sending email to adamerot@hotmail.com
+INFO 2015-05-27 10:13:20,281 views Order #100014: beginning submission process for basket #14
+INFO 2015-05-27 10:13:22,812 views Order #100014: payment successful, placing order
+INFO 2015-05-27 10:13:22,946 mixins Order #100014 - sending ORDER_PLACED messages
+INFO 2015-05-27 10:13:22,949 utils Sending email to ksiazkowymolpl@gmail.com
